@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Twitter Bookmarks to Notion {% block title %}{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Twitter Bookmarks To Notion</h1>
+      {% block containercontent %}{% endblock %}
+      <hr />
+      <div class="footer">
+        <p class="text-muted">
+          <small
+            >This is a basic demo created by the
+            <a href="https://twitter.com/TwitterDev">@TwitterDev</a> team. It is
+            written in Python, using
+            <a href="http://flask.pocoo.org/">Flask</a>. Basic CSS is provided by
+            <a href="http://getbootstrap.com/">Bootstrap</a>. The source code
+            for this project can be found at
+            <a href="https://github.com/twitterdev/bookmarks-to-notion"
+              >github/twitterdev/bookmarks-to-notion</a
+            >.</small
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

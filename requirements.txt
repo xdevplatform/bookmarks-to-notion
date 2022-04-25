@@ -1,0 +1,9 @@
+gunicorn
+httplib2
+itsdangerous
+oauth2
+Flask
+Jinja2
+MarkupSafe
+Werkzeug
+tweepy

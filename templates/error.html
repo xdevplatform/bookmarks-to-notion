@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}error{% endblock %}
+{% block containercontent %}
+    	<div class="panel panel-danger">
+    		<div class="panel-heading">
+    			<h3 class="panel-title">Yikes, something went wrong!</h3>
+    		</div>
+    		<div class="panel-body">{{ error_message }}</div><br>
+    	</div>
+    	<a href="/" class="btn btn-small btn-primary">Let me try again</a>
+{% endblock %}

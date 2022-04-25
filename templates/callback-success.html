@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}success{% endblock %}
+{% block containercontent %}
+<p>Thank you, <strong>{{ name }}</strong>, for authorizing bookmarks-to-notion access your bookmarks</p>
+<ul>
+	<li>You have <span class="label label-success">{{ tweet_count }}</span> Tweets in your bookmarks.</li>
+</ul>
+<p>Next, lets authorize Notion to import your bookmarks.</p>
+<a href="{{authorize_url}}" class="btn btn-small btn-primary">Login to Notion</a>
+{% endblock %}

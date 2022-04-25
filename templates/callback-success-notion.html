@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}success{% endblock %}
+{% block containercontent %}
+<p>Thank you, we have created a page in Notion with your Twitter Bookmarks.</p>
+<ul>
+	<li>Here is you url: <a href="{{page_url}}" target="_blank">{{page_url}}</a></li>
+</ul>
+<p>That's the demo! You can now revoke access to this demo app from your <a
+	 href="https://twitter.com/settings/applications">account settings</a> on Twitter.</p>
+<p>Want to create your own app like this?<a href="https://t.co/signup"> Sign up for the Twitter API here</a> It is Free!</p>
+<a href="/" class="btn btn-small btn-primary">Let me try again</a>
+{% endblock %}

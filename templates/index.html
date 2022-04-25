@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block containercontent %}
+<p class="lead">Welcome to the Twitter Bookmarks to Notion app. This app lets you import your Bookmarked Tweets to a Notion page.</p>
+<div class="hero-unit">
+	<p>To get started, we'll need you to authorize bookmarks-to-notion app to access your bookmarks on Twitter using OAuth 2.0. Learn more information about <a href="https://developer.twitter.com/en/docs/authentication/oauth-2-0">OAuth 2.0</a></p>
+	<p>Here's how it works:</p>
+	<ol>
+		<li>We will redirect you to Twitter.com for you to authorize our app.</li>
+		<li>While at Twitter.com, you will authorize bookmarks-to-notion to access your bookmarks. Upon authorization, we will get your recent 100 bookmarks.</li>
+		<li>Next we will direct you to the Notion authorization flow. When you have authorized this app to create a Notion page for you, we will create a page with your Twitter Bookmarks and provide you the URL for that page.</li>
+	</ol>
+</div>
+<p>Ready to give this a shot?</p>
+<a href="/start" class="btn btn-small btn-success">Let's Begin</a>
+{% endblock %}
