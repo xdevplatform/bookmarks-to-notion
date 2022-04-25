@@ -4,6 +4,8 @@ A simple Python + Flask web app that demonstrates how to export Twitter Bookmark
 
 You can try a deployed version of the app [running on Glitch](https://twitter-bookmarks-to-notion.glitch.me/).
 
+[Sign up for the Twitter API](https://t.co/signup)
+
 ## Setup
 
 1. Obtain consumer key and secret from the [Twitter Developer portal](https://developer.twitter.com). The app should be configured to enable Sign in with Twitter.
